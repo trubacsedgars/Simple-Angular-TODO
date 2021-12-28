@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap/scss/bootstrap";
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: lightgray;
+}
+
+.completed {
+  text-decoration: line-through green;
+  text-decoration-thickness: 3px;
+}
